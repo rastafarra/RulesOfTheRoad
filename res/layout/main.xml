@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical" >
+  <ImageView
+          android:id="@+id/image"
+          android:scaleType="fitCenter"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content" />
+
+  <TextView
+    android:id="@+id/text"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+
+  <TableLayout android:id="@+id/table"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" >
+    <TableRow>
+      <Button android:id="@+id/button1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Hello, I am a Button 1 и еще очень многа многоа многа многа букаф" />
+      <Button android:id="@+id/button2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Hello, I am a Button 2" />
+    </TableRow>
+    <TableRow>
+      <Button android:id="@+id/button3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Hello, I am a Button 3" />
+      <Button android:id="@+id/button4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Hello, I am a Button 4" />
+    </TableRow>
+  </TableLayout>
+</LinearLayout>
+
